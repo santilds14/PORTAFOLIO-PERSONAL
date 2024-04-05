@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Franklin:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@450&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+
+body{
+    background-color: #16484c;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h4{
+    color: #fff;
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+}
+.formulario input{
+    display: flex;
+    border: black 1px solid;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    width: 350px;
+    height: 50px;
+
+}
+.formulario textarea{
+    border: black 1px solid;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    width: 350px;
+    height: 50px;
+    display: flex;  
+}
+button{
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: normal;
+    width: 355px;
+    height: 50px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #16484c;
+    border: #fff 3px solid;
+    margin-bottom: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+button:hover{
+    background: #fff;
+    color: #000;
+}
+button:hover a{
+    background: #fff;
+    color: #000;
+}
+
